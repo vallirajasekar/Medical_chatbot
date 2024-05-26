@@ -6,6 +6,8 @@
 
 ### Architecture
 
+### Complete Architecture of the Medical Chatbot
+
 1. **Data Ingestion**  
    We start with the ingestion of PDF files, specifically medical books.
 
@@ -24,7 +26,7 @@
    - **Semantic Index:** Builds clusters where similar concepts (e.g., "king" and "queen") are in the same index.
    - **Knowledge Base:** Uses Pinecone for vector storage.
 
-### Backend Components
+### Front End Components
 
 1. **User Interaction Flow**  
    - **User Question:** The user asks a question.
@@ -33,8 +35,5 @@
    - **Llama2 Filtering:** Filters out the exact result.
    - **Response:** Sends the filtered result back to the user.
 
-### Complete Architecture of the Medical Chatbot
 
-![Medical Chatbot Architecture](path_to_architecture_diagram_image)
 
-This architecture outlines the implementation process of our medical chatbot, ensuring efficient data processing and accurate responses.
