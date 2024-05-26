@@ -1,0 +1,7 @@
+ctransformers==0.2.5   ## Quantize Model beacuse we are running cpu   
+sentence-transformers ## Embedding Generation 
+pinecone-client
+langchain==0.0.225
+flask
+
+
