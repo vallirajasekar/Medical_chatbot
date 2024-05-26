@@ -1,12 +1,11 @@
-# Medical_chatbot
+Here's the continuation of your README.md with the provided information:
 
+```markdown
 # Architecture Overview
 
 ## Medical Chatbot Implementation Using Custom Data
 
 ### Architecture
-
-### Complete Architecture of the Medical Chatbot
 
 1. **Data Ingestion**  
    We start with the ingestion of PDF files, specifically medical books.
@@ -26,7 +25,7 @@
    - **Semantic Index:** Builds clusters where similar concepts (e.g., "king" and "queen") are in the same index.
    - **Knowledge Base:** Uses Pinecone for vector storage.
 
-### Front End Components
+### Backend Components
 
 1. **User Interaction Flow**  
    - **User Question:** The user asks a question.
@@ -37,3 +36,43 @@
 
 
 
+## Tech Stack Used
+
+1. Python
+2. Langchain -- Generative AI framework
+3. Frontend/Webapp -- Flask
+4. LLM- Meta llama 2
+5. Vector DB - Pinecone
+
+## Git Steps for the Project
+
+```sh
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+## Running the Project
+
+### Creating the Environment
+
+```sh
+conda create -n mchatbot python==3.9 -y
+```
+
+### Activating the Environment
+
+```sh
+conda activate mchatbot
+```
+
+### Installing Requirements
+
+```sh
+pip install -r requirements.txt
+```
+
+Replace `path_to_architecture_diagram_image` in the architecture section with the actual path to your architecture diagram image, if available.
+```
+
+This README.md section now includes information about the tech stack used, Git steps for the project, and instructions for running the project. It's all set for you to copy and paste into your README.md file.
